@@ -1,0 +1,49 @@
+body * {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  position: fixed;
+  right: 0;
+  bottom: 25%;
+}
+
+.social-media {
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+  left: 200px;
+  display: block;
+  color: white;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
+}
+.social-media:hover {
+  left: 0px;
+}
+.social-media i {
+  width: 30px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.social-media.blog {
+  background-color: #e17b77;
+}
+
+.social-media.facebook {
+  background-color: #3b5998;
+}
+
+.social-media.twitter {
+  background-color: #00aced;
+}
+
+.social-media.github {
+  background-color: #333;
+}
+
+.social-media.linkedin {
+  background-color: #007bb6;
+}/*# sourceMappingURL=styles.css.map */

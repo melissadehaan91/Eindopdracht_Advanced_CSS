@@ -1,0 +1,68 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  background-color: #c3cfe2;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  width: 350px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 8px 10px 3px #8c99ad;
+          box-shadow: 0 8px 10px 3px #8c99ad;
+}
+.card__main {
+  background-color: #fff;
+  border-radius: 15px 15px 0 0;
+  color: darkslategrey;
+  line-height: 1.5em;
+  padding: 35px 35px 70px 35px;
+}
+.card__footer {
+  background-color: #686de0;
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-align: center;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0 0 15px 15px;
+}
+.card__footer .card__figure {
+  display: block;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: 0;
+}
+.card__footer .card__figure img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100px;
+  border: 5px solid #fff;
+  border-radius: 100%;
+}
+.card__footer .card__subtitle {
+  color: #c3cfe2;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.card__footer .card__name {
+  margin: 0;
+}/*# sourceMappingURL=styles.css.map */

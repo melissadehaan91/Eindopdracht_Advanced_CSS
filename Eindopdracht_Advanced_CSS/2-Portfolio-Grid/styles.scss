@@ -1,0 +1,11 @@
+@import "./constants";
+@import "./card";
+@import "./grid";
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  background-color: $color-light-grey;
+}
